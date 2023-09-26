@@ -1,0 +1,166 @@
+body{
+	background-image:url(../img/Background1.jpeg);
+	background-position:center;
+}
+:root{
+   --purple:#8e44ad;
+   --red:#c0392b;
+   --orange:#f39c12;
+   --black:#333;
+   --white:#fff;
+   --light-color:#666;
+   --light-white:#ccc;
+   --light-bg:#f5f5f5;
+   --border:.1rem solid var(--black);
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+.admin{
+	margin-left:80px;
+	
+}
+
+*{
+  
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   transition:all .2s linear;
+   background-position:center;
+}
+
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+.btn,
+.option-btn,
+.delete-btn,
+.white-btn{
+   display: inline-block;
+   margin-top: 1rem;
+   padding:1rem 3rem;
+   cursor: pointer;
+   color:var(--white);
+   font-size: 1.8rem;
+   border-radius: .5rem;
+   text-transform: capitalize;
+}
+
+.btn:hover,
+.option-btn:hover,
+.delete-btn:hover{
+   background-color: var(--black);
+}
+
+.white-btn,
+.btn{
+   background-color: var(--purple);
+}
+
+.option-btn{
+   background-color: var(--orange);
+}
+
+.delete-btn{
+   background-color: var(--red);
+}
+
+.white-btn:hover{
+   background-color: var(--white);
+   color:var(--black);
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+}
+.contact form{
+   margin:0 auto;
+   background-color: var(--light-bg);
+   border-radius: .5rem;
+   border:var(--border);
+   padding:2rem;
+   max-width: 50rem;
+   margin:0 auto;
+   text-align: center;
+}
+
+.contact form h3{
+   font-size: 2.5rem;
+   text-transform: uppercase;
+   margin-bottom: 1rem;
+   color:var(--black);
+}
+
+.contact form .box{
+   margin:1rem 0;
+   width: 100%;
+   border:var(--border);
+   background-color: var(--white);
+   padding:1.2rem 1.4rem;
+   font-size: 1.8rem;
+   color:var(--black);
+   border-radius: .5rem;
+}
+
+.contact form textarea{
+   height: 20rem;
+   resize: none;
+}
+
+
+
+
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+	font-family:"Times New Roman", Times, serif;
+	
+	
+}
+
+.home .content{
+  margin-left:220px;
+  margin-top:-0.5%;
+  font-family:"Times New Roman", Times, serif;
+	
+}
+
+.home .content h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#fff;
+	margin-left:10px;
+	
+}
+
+.home .content p{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding:1rem 0;
+    color:#eee;
+	  margin-left:180px;
+	
+}
+.home .content .phrase{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding:1rem 0;
+    color:#eee;
+	  margin-left:43px;
+	  margin-top:-3%;
+	
+}
+.photo{
+	height:390px;
+	width:500px;
+	margin-left:10px;
+	border-radius:5px;
+}

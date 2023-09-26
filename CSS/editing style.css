@@ -1,0 +1,66 @@
+body{
+	background-image:url(../img/Background.jpeg);
+	background-position:center;
+}
+
+.admin2{
+	background-color: #fff;
+	border: #666 solid 1px;
+	width: 650px;
+	height: 550px;
+	text-align:left;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 20px;
+	border-radius: 10px 10px 10px 10px;
+	margin-left: 29%;
+	direction:ltr;
+	padding-left:20px;
+}
+.b{
+	font-family:"Times New Roman", Times, serif;
+	color:#000;
+	font-size:34px;
+	text-decoration:underline;
+	text-align:center;
+}
+
+.button{
+	width:120px;
+	height:50px;
+	font-size:20px;
+	font-family: "Times New Roman";
+	position:relative;
+	left:40%;
+	background-color:#FFF;
+	border-color:#000;
+	color:#000;
+	transition-duration: 0.5s;
+  cursor: pointer;
+  border-radius:10px 10px 10px 10px;
+	
+}
+.button:hover {
+  background-color:#96C;
+  color: white;
+}
+.text{
+		transition-duration: 0.5s;
+  cursor: pointer;
+  border-radius:10px;
+	
+}
+.text:hover {
+  background-color:#96C;
+  color: white;
+}
+.date{
+   transition-duration: 0.5s;
+   cursor: pointer;
+   height:30px;
+   border-radius:5px;
+	
+}
+.date:hover {
+  background-color:#96C;
+  color: white;
+}

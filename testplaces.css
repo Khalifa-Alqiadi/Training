@@ -1,0 +1,94 @@
+
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+	background-color:#FFF;
+	background-position:center;
+}
+
+
+h1{
+   
+    font-size: 3rem;
+	color:#FFF;
+	font-family:"Times New Roman", Times, serif;
+}
+
+h2{
+    font-family: var(--Lexend);
+}
+
+h3{
+    
+    font-size: 2rem;
+	color:#FFF;
+	font-family:"Times New Roman", Times, serif;
+}
+
+
+main .site-title{
+    background:url(img/Welcome%20to%20KSA.jpeg);
+	margin-left:0.5%;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background{
+    padding-top: 4rem;
+    text-align: center;
+    color:#FFF;
+}
+
+main .site-title h1, h3{
+    margin: .3rem;
+}
+
+/* --------x------ Site title --------x------- */
+
+/* --------------- Blog Carousel ------------ */
+
+
+
+main .blog .blog-post{
+    padding-top: 6rem;
+
+}
+
+main .blog-post .blog-content{
+	background-color:#FFF;
+    display:inline-block;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+	border-radius:20px;
+}
+
+main .blog-content .blog-title{
+    padding: 2rem 0;
+}
+
+.btn{
+   display: inline-block;
+   margin-top: 1rem;
+   padding:1rem 3rem;
+   cursor: pointer;
+   color:#FFF;
+   font-size: 1.5rem;
+   border-radius: .5rem;
+   border:solid 1PX ;
+   text-transform: capitalize;
+   text-decoration:none;
+   background-image:url(img/Background.jpeg);
+   border-radius:10px;
+}
+
+
+.btn:hover{
+    letter-spacing: .2rem;
+}
